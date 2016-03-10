@@ -497,7 +497,7 @@ section { position: relative; }
 .extraSpacing4 .sectionInfo { margin-bottom: 100px; }
 .sectionInfo h2 { font-size: 30px; }
 .sectionTitle { font-weight: 900; margin-bottom: 20px; line-height: 44px; }
-.sectionDescription { font-weight: 300; line-height: 40px; }
+.sectionDescription { font-weight: 300; line-height: 35px; }
 
 /*Feature Boxes*/
 .featureBox { margin-bottom: 25px; }
