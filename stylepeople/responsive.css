@@ -857,6 +857,7 @@
         stroke-width: 0;
         stroke-location: inside;
         transition: all 0.4s;
+       
     }
 
     .board-members-svg .board-member-item.active .highlight, .board-members-svg .board-member-item:hover .highlight {
