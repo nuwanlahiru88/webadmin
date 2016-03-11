@@ -492,7 +492,7 @@ section { position: relative; }
 * CONTENT ELEMENTS
 ****************************/
 /*Section Info*/
-.sectionInfo { margin-bottom: 75px; }
+.sectionInfo {margin-bottom: 10px;}
 .extraSpacing2 .sectionInfo { margin-bottom: 90px; }
 .extraSpacing4 .sectionInfo { margin-bottom: 100px; }
 .sectionInfo h2 { font-size: 30px; }
