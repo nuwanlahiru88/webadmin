@@ -16,7 +16,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.png"/>
     <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png"/>
     <link href="images/favicon.png" rel="shortcut icon">
-
+     <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'/>
 
@@ -28,7 +28,7 @@
     <link href="css/style.css" rel="stylesheet" />
     <style type="text/css">
  
-image {
+svg {
  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   filter: gray;
@@ -93,11 +93,28 @@ image {
   opacity:0.5;
 }
 
+#fa:hover{
+    color:#cc2900;
+    
+}
+#in:hover{
+    color:#cc2900;
+    
+}
+#tw:hover{
+    color:#cc2900;
+    
+}
+
 </style>
     
 <script type="text/javascript">
         function url1(){
              window.location="people.html";
+        }
+        
+        function urllink(){
+            window.location="http://newsblog.bestlifeltd.com/";
         }
 </script>   
     
@@ -118,7 +135,7 @@ image {
                 </div>
 </div>
 <div id="site-changer">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="530px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 3.22563 2.15716">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="425px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 3.22563 2.15716">
  
 <defs>
   <style type="text/css">
@@ -209,21 +226,28 @@ image {
             <h2 class="underline"><a href="index.html"><img style="width:150px;" src="images/Logo.png" /></a></h2>
               <!--  <span class="icon_close" id="menuClose"></span> -->
                 <ul id="mainMenu">
-                        <li style="border-bottom: 1px solid #414850;"><a href="index.html" class="active">Home</a></li>
-                        <li style="border-bottom: 1px solid #414850;"><a href="about.html">About</a></li>
+                    
+                        <li style="border-bottom: 1px solid #414850;"><a href="index.html" class="active" >Home</a></li>
+                        <li style="border-bottom: 1px solid #414850;"><a href="about.html" >About</a></li>
                        <!-- <li><a href="work.html">Featured <span class="horizontalInvisible">Work</span></a></li> -->
                         <li style="border-bottom: 1px solid #414850;"><a href="meet.html"><span class="horizontalInvisible">Meet</span> The Crew</a></li>
-                        <li style="border-bottom: 1px solid #414850;"><a href="latestwork.html"><span class="horizontalInvisible">Our</span> companies</a></li>
-                     <!--   <li><a href="services.html">Services <span class="horizontalInvisible">We Offer</span></a></li> -->
-                        <li style="border-bottom: 1px solid #414850;"><a href="http://newsblog.bestlifeltd.com/" target="_blank">Blog</a></li>
+                        <li style="border-bottom: 1px solid #414850;"><a href="latestwork.html"><span class="horizontalInvisible">Our</span> Latest Works</a></li>
+                       <!-- <li><a href="services.html">Services <span class="horizontalInvisible">We Offer</span></a></li> -->
+                       <li style="border-bottom: 1px solid #414850;cursor:pointer;"><a onclick="urllink()" >Blog</a></li>
                         <li style="border-bottom: 1px solid #414850;"><a href="testimonials.html">Testimonials</a></li>
-                        <li style="border-bottom: 1px solid #414850;"><a href="partnership.html"><span class="horizontalInvisible">Our</span> Customers</a></li>
+                        <li style="border-bottom: 1px solid #414850;"><a href="partnership.html">Our Customers</a></li>
                         <li style="border-bottom: 1px solid #414850;"><a href="contact.html">Get In Touch</a></li>
 
                 </ul>
+
+              <div style="padding-top:25px;">
+                  <a href="#"><i id="fa" style="padding-left:35px;font-size:20px;" class="fa fa-facebook-square"></i></a>
+                  <a href="#"><i id="in" style="padding-left:35px;font-size:20px;" class="fa fa-linkedin-square"></i></a>
+                  <a href="#"><i id="tw" style="padding-left:35px;font-size:20px;" class="fa fa-twitter"></i></a>
+              </div>
               
               <!-- svg xml -->
-              <div style="padding-top:25px;">  
+              <div style="padding-top:35px;padding-left:15px;">  
               <?xml version="1.0" encoding="UTF-8"?>
                 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
                 <!-- Creator: CorelDRAW -->
@@ -289,7 +313,7 @@ image {
 <section class="mainSliderContainer">
             <div class="mainSlider">
                 <ul>
-                    <!-- SLIDE 1-->
+                     <!-- SLIDE 1-->
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="0">
                         <!-- MAIN IMAGE -->
                         <img alt="Slide1" src="images/slide1bg.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" />
